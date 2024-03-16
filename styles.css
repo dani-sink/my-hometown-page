@@ -4,6 +4,7 @@ body {
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    background: #F5E9B7;
 }
 
 /* Hero Section */
@@ -56,6 +57,7 @@ body {
     height: 700px;
     border-radius: 10px;
     padding: 10px 0;
+    margin-bottom: 10px;
 }
 
 #activities-top-text {
@@ -87,3 +89,52 @@ body {
 
 
 /* Guide Section */
+
+.guide-section {
+    background: linear-gradient(#AEFFD8, #006661);
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guide-container {
+    margin: 0 auto;
+    display:flex;
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-description{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    padding: 0 25px;
+}
+#my-photo {
+    margin: 0 15px;
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+#my-name {
+    font-weight: bolder;
+    font-size: 21px;
+}
+
+#your-guide{
+    margin: -5px 0 20px 0;
+}
+
+#middle-text {
+    margin: 10px 0 15px 0;
+}
+
