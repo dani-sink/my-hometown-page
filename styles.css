@@ -1,0 +1,53 @@
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    background-image: url('images/bkg1.jpg');
+    background-size: cover;
+    height: 700px;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 460px;
+    transform: scale(1.5)
+}
+
+#hero-top-text, #hero-bottom-text {
+    color: #ffffff;
+    text-shadow: 0px 0px 1px black;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 6px 15px;
+}
+
+#hero-top-text {
+    background: #F36B16;
+    margin-bottom: 10px;
+    width: 220px;
+}
+#hero-bottom-text {
+    background: #3FA249;
+    display:flex;
+    margin-bottom: 10px;
+    width: 425px;
+    height:110px;
+    align-items: center;
+}
+
+.activities {
+    margin-top: 10px;
+    background: linear-gradient(#F36B16, #ffffff, #3FA249);
+    height: 800px;
+    border-radius: 10px;
+}
