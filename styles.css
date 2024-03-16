@@ -6,7 +6,9 @@ body {
     text-align: center;
 }
 
-.hero {
+/* Hero Section */
+
+.hero-section {
     display: flex;
     background-image: url('images/bkg1.jpg');
     background-size: cover;
@@ -45,9 +47,43 @@ body {
     align-items: center;
 }
 
-.activities {
+
+/* Activities Section */
+
+.activities-section {
     margin-top: 10px;
     background: linear-gradient(#F36B16, #ffffff, #3FA249);
-    height: 800px;
+    height: 700px;
     border-radius: 10px;
+    padding: 10px 0;
 }
+
+#activities-top-text {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.activities {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 650px;
+}
+
+.activity {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+#saint-paul, #banco, #cava {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 3px solid #0C1618;
+}
+
+
+/* Guide Section */
